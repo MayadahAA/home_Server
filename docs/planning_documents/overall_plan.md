@@ -45,6 +45,7 @@
 ## Milestone 2
 
 - review plan, requirements, test, and design documents
+- a shell script to run both the frontend and backend
 
 ## Milestone 3
 
