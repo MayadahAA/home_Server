@@ -7,10 +7,11 @@
 
 # goals
 
-1. create a server and a frond end app that
+1. create a server and a frond end app that can be self-hosted in a home network
 2. allow chatting between people in the server
 3. control smart home devices
 4. share files between people in the server
+5. play games among people in the server
 
 # approach
 
@@ -42,6 +43,8 @@
 - create design plan
 
 ## Milestone 2
+
+- review plan, requirements, test, and design documents
 
 ## Milestone 3
 
