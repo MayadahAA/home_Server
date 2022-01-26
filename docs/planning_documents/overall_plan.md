@@ -22,7 +22,10 @@
 
 # Technical challenges:
 
-1.
+1.Security
+2.Storage
+3.efficiency 
+4.Responsiveness
 
 # Milestones
 
