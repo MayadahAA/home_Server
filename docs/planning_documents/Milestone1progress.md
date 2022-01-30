@@ -25,20 +25,20 @@
 | design document              |                                                                                 |                                                       |
 
 ## Technical tools options:
-  * Javascript frameworks:
-    * _react js_ : frontend - useful when building userinterface - learning it is hard at the begining, very popular in America. [react-website](https://reactjs.org)  
-    * next js: frontend - built on top on react js - easy to use - used for small projects - [nextjs-website](https://nextjs.org)
-    * express js: backend - built on top of node js - very easy to use and learn - makes the development of frontend very easy and fast - best to use with next js - [express-website](https://expressjs.com)
-    * Angular: 
-  - php frameworks
-    * laravel: 
-  - C# :
-    * ASP.NET core mvc: 
-  - Python:
-    * Django: 
-    * Flask: 
-   - css: 
-     * bootstrap: 
-     * tailwind: 
 
+- Javascript frameworks:
+  - _react js_ : frontend - useful when building user interface - learning it is hard at the beginning, very popular in America. [react-website](https://reactjs.org)
+  - next js: frontend - built on top on react js - easy to use - used for small projects - [next js-website](https://nextjs.org)
+  - express js: backend - built on top of node js - very easy to use and learn - makes the development of frontend very easy and fast - best to use with next js - [express-website](https://expressjs.com)
+  - Angular:
 
+* php frameworks
+  - laravel:
+* C# :
+  - ASP.NET core mvc:
+* Python:
+  - Django:
+  - Flask:
+* css:
+  - bootstrap:
+  - tailwind:
