@@ -23,3 +23,18 @@
 | requirement document         | - create                                                                        |                                                       |
 | test plan                    |                                                                                 |                                                       |
 | design document              |                                                                                 |                                                       |
+
+## Technical tools options:
+
+- Javascript frameworks:
+  -
+- php frameworks
+- C# :
+- Python:
+
+| tool             | usage              | description |
+| ---------------- | ------------------ | ----------- |
+| php-laravel      | backend            |             |
+| ASP.NET core mvc | frontend + backend |             |
+| express js       | backend            |             |
+| flask            | backend            |             |
