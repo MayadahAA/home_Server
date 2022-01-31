@@ -42,3 +42,12 @@
 * css:
   - bootstrap:
   - tailwind:
+* Java:
+  - Spring mvc:
+
+## technology to learn
+
+1. Docker:
+2. MVC design pattern:
+3. version control (git):
+4.
