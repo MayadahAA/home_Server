@@ -4,7 +4,7 @@
 
 ## 1.1 Purpose of Document
 
-This is a Requirements Specification document for [explain the program]
+This is a Requirements Specification document for home server application that will connect all devices in a local network with each other. Then, the users in the same [explain the program]
 
 ## 1.2 Background
 
@@ -43,6 +43,12 @@ Other desired features of the new system:
 
 -
 
+### 1.4.4 Challenges
+
+there are many challenges that we are going to face in this project which are:
+
+1. how to connect the server to the local network but not let it connect to the internet
+
 ## 1.5 Overview of Document
 
 The rest of this document gives the detailed specifications for the new home server system. It is organized as follows:
@@ -53,7 +59,10 @@ The rest of this document gives the detailed specifications for the new home ser
 
 ## 2.1 High Priority
 
-1.
+1. the system shall allow the users to chat with each other
+2. the system shall allow the users to share files
+3. the system shall allow the users to share photos
+4.
 
 ## 2.2 Medium Priority
 
@@ -61,7 +70,7 @@ The rest of this document gives the detailed specifications for the new home ser
 
 ## 2.3 Low Priority
 
-1.
+1. the system shall allow the users to stream videos
 
 # 3. Non-Functional Requirement
 
@@ -105,7 +114,7 @@ The goal of the system is to ...
 
 ## 5.2 Use Case Descriptions
 
-Register User
+Register a User
 |Use case number|1|
 | --- | --- |
 |**summary** | |
