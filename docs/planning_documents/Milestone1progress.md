@@ -35,10 +35,10 @@
 * php frameworks
   - laravel: Backend - faster development cycle - no built-in support function - [laravel-website](https://laravel.com)
 * C# :
-  - ASP.NET core mvc: Cross-platform - 
+  - ASP.NET core mvc: Cross-platform - fast performance framework - poor security features - [ASP.NET-website](https://dotnet.microsoft.com/en-us/apps/aspnet)
 * Python:
-  - Django: Backend -
-  - Flask: Backend -
+  - Django: Backend - handle large amount of traffic - not for smaller projects - [Django-website](https://www.djangoproject.com)
+  - Flask: Backend - build based on werkzeng toolkit - easy to understand - used for small projects - [Flask-website](http://flask.pocoo.org)
 * css:
   - bootstrap: Frontend -
   - tailwind: Frontend -
