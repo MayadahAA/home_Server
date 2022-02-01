@@ -30,18 +30,18 @@
   - _react js_ : frontend - useful when building user interface - learning it is hard at the beginning, very popular in America. [react-website](https://reactjs.org)
   - next js: frontend - built on top on react js - easy to use - used for small projects - [next js-website](https://nextjs.org)
   - express js: backend - built on top of node js - very easy to use and learn - makes the development of frontend very easy and fast - best to use with next js - [express-website](https://expressjs.com)
-  - Angular:
+  - Angular: Frontend - build based on Typescript - support for lazy loading - hard to beginners - [Angular-website](https://angular.io)
 
 * php frameworks
-  - laravel:
+  - laravel: Backend - faster development cycle - no built-in support function - [laravel-website](https://laravel.com)
 * C# :
-  - ASP.NET core mvc:
+  - ASP.NET core mvc: Cross-platform - 
 * Python:
-  - Django:
-  - Flask:
+  - Django: Backend -
+  - Flask: Backend -
 * css:
-  - bootstrap:
-  - tailwind:
+  - bootstrap: Frontend -
+  - tailwind: Frontend -
 * Java:
   - Spring mvc:
 
