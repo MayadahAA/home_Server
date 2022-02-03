@@ -70,7 +70,8 @@ The rest of this document gives the detailed specifications for the new home ser
 
 ## 2.3 Low Priority
 
-1. the system shall allow the users to stream videos
+1. the system shall allow the users to stream videos (plex)
+2. the system shall be able to monitor the data traffic for security purposes
 
 # 3. Non-Functional Requirement
 
