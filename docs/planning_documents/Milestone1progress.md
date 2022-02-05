@@ -50,4 +50,7 @@
 1. Docker:
 2. MVC design pattern:
 3. version control (git):
-4.
+4. DOM:
+5. Server-side rendering:
+6. npm:
+7. restful API:
