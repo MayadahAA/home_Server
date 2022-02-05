@@ -1,5 +1,9 @@
 [toc]
 
+```mermaid
+
+```
+
 # 1. Introduction
 
 ## 1.1 Purpose of Document
@@ -59,19 +63,20 @@ The rest of this document gives the detailed specifications for the new home ser
 
 ## 2.1 High Priority
 
-1. the system shall allow the users to chat with each other
-2. the system shall allow the users to share files
-3. the system shall allow the users to share photos
-4.
+1. **REQ01**. the system shall allow the users to chat with each other
+
+2. **REQ02**. the system shall allow the users to share files
+3. **REQ03**. the system shall allow the users to share photos
+4. **REQ04**. the system shall allow users to play games together
 
 ## 2.2 Medium Priority
 
-1.
+1. **REQ01**.
 
 ## 2.3 Low Priority
 
-1. the system shall allow the users to stream videos (plex)
-2. the system shall be able to monitor the data traffic for security purposes
+1. **REQ01**. the system shall allow the users to stream videos (plex)
+2. **REQ01**. the system shall be able to monitor the data traffic for security purposes
 
 # 3. Non-Functional Requirement
 
