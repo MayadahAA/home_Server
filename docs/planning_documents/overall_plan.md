@@ -53,18 +53,18 @@ id6 --> id1
 
 ## Milestone 1
 
-- create the planning document
-- compare and select technical tools
+- [ ] create the planning document
+- [x] compare and select technical tools
   - **front end**
     - plain html_css_js vs react js vs vue js
   - **backend**
     - php laravel vs .NET vs flask vs express js
   - **database**
     - sql (sqlite, mysql ... etc) vs nosql (mongoDB ...)
-- create a small demo "hello world" to evaluate the tools
-- resolve technical challenges
-- Create requirement document
-- create design plan
+- [ ] create a small demo "hello world" to evaluate the tools
+- [ ] resolve technical challenges
+- [ ] Create requirement document
+- [ ] create design plan
 
 ## Milestone 2
 
