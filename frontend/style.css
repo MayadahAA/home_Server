@@ -1,5 +1,4 @@
 .bg {
-    background-image: url("/assist/Vector.svg");
 }
 /* Google Font Import - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -157,7 +156,7 @@ header .image-text .profession{
     transition: var(--tran-05);
 }
 
-body.dark .sidebar header .toggle{
+body.dark .sidebar header .toggle .home{
     color: var(--text-color);
 }
 
