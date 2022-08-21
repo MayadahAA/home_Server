@@ -100,7 +100,8 @@
      
     <section class="home ">
         <!--Avatar & notification-->
-        <nav class="navbar bg-light ">
+        <div class="cards"> 
+        <nav class="navbar">
             <div class="container-fluid">
               <a style="margin-left: 96%; " class="navbar-brand" href="#" > <!--todo: profile dropdown options-->
                 <li class="bi bi-bell pe-1" style="display: inline-block;"></li> <!--notifications-->
@@ -108,19 +109,21 @@
               </a>
             </div>
           </nav>
-
-        <div> <!--welcome-->
-        <h1 class="text-black text ">Welcome Abo Rakan</h1>
-        <h6 class="ms-5 ps-4 text-secondary">check what your family do...</h6>
         </div>
-        <div class="container"> <!--dashboard cards-->
-            <div class="row align-items-start "> 
+
+        <div class="cards"> <!--welcome-->
+        <h1 class=" text ">Welcome Abo Rakan</h1>
+        <h6 class="ms-5 ps-4 text-secondary">check what your family do...</h6>
+        
+        <div class="container "> <!--dashboard cards-->
+            <div class=" align-items-start " > 
             <!--first card-->
-              <div class="col bg-white m-5 pt-3 pb-1 ps-2 rounded-3 ps-4 ">
+            <div class="cardcol"> 
+              <div class="col-11 pt-5 m-5  p-5 rounded-3">
                 <h5 class="pt-3" style='vertical-align:middle; display:inline;'>Activites</h5> 
                 <img src="assist/three-dots-vertical.svg" alt="" class="float-end" > <!--doted option-->
               
-                <p class="sm mt-4">today</p> <!--today activite list-->
+                <p class="sm mt-4 fs-6">today</p> <!--today activite list-->
                 <ul class="list-inline">
                   <li class="circle"></li>
                   <li class="list-inline-item ">Aaaaaa</li>
@@ -129,7 +132,7 @@
                   <li class="circle"></li>
                   <li class="list-inline-item">Ccccccccc</li>
                 </ul>
-              <p class="sm mt-4">this week</p> <!--this week activite list-->
+              <p class="sm mt-4 fs-6">this week</p> <!--this week activite list-->
                 <ul class="list-inline">
                   <li class="circle"></li>
                   <li class="list-inline-item ">Aaaaaaaaa</li>
@@ -139,27 +142,32 @@
                   <li class="list-inline-item">Cccccccccccccccc</li>
                 </ul>
               </div>
+            </div>
             <!--second card-->
-                <div class="col bg-white m-5 pt-3 pb-1 ps-2 rounded-3"> 
-                  <h5 class="ps-3" style='vertical-align:middle; display:inline;'>Shared files</h5>
-                  <img src="assist/three-dots-vertical.svg" alt="" class="float-end" > <!--doted option-->
+            <div class="cardcol"> 
+                <div class="col-11 pt-5 m-5  p-5  rounded-3 "> 
+                  <h5 class="ps-3" style='vertical-align:middle; display:inline-block;'>Shared files</h5>
+                  <img src="assist/three-dots-vertical.svg" alt="" class="float-end pe-2" > <!--doted option-->
                   <ul>
-                    <p class="sm mt-4">today</p> <!--today shared files list-->
-                      <li>Mead shared "grades.png" <i class="float-end"><img src="assist\file-image.svg" alt="file-image"></i></li>
+                    <p class="sm mt-4 ">today</p> <!--today shared files list-->
+                      <li>Mead shared "grades.png" <i class="float-end pe-2"><img src="assist\file-image.svg" alt="file-image"></i></li>
                     <p class="sm mt-4">this week</p> <!--this week shared files list-->
-                      <li>Mayadah shared “finance.pdf”<i class="float-end"><img src="assist/file-earmark.svg" alt="file-image"></i></li>
+                      <li>Mayadah shared “finance.pdf”<i class="float-end pe-2 mb-5"><img src="assist/file-earmark.svg" alt="file-image"></i></li>
                   </ul>
                 </div>
+            </div>
             </div>
         </div>
         <div class="container">
             <div class="row align-items-start ">
                 <!-- top users card-->
-                <div class="col bg-white m-5 pt-3 pb-1 ps-2 rounded-3 ps-4">
+                <div class="cardcol">
+                <div class="col-5 pt-5 m-5  p-5 rounded-3 mb-5">
                     <h5 class="pt-3" style='vertical-align:middle; display:inline;'>Top Users</h5> 
                     <img src="assist/three-dots-vertical.svg" alt="" class="float-end" > <!--doted option-->
                     <!--table-->
-                    <table class="table mt-4">
+                    <div class="cardcol"> 
+                    <table class="table mt-4 ">
                         <thead>
                             <tr>
                               <th scope="col"class="fw-bold">No</th>
@@ -195,9 +203,12 @@
                                     </tr>
                     </table>
                 </div>
+                </div>
+            </div>
 
                 <!-- tasks card-->
-                <div class="col bg-white m-5 pt-3 pb-1 ps-2 rounded-3 ps-4">
+                <div class="cardcol">
+                <div class="col-10 pt-5 m-5  p-5 rounded-3 ">
                     <h5 class="pt-3" style='vertical-align:middle; display:inline;'>Tasks</h5> 
                     <img src="assist/three-dots-vertical.svg" alt="" class="float-end" > <!--doted option-->
                     <p class=" text-secondary">2 of 4 remaining</p>
@@ -221,7 +232,9 @@
                     </div> -->
                 </div>
             </div>
+            </div>
         </div>
+    </div>
     </section>
 
     <script>

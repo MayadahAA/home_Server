@@ -285,14 +285,14 @@ body.dark .switch::before{
 }
 
 .home{
-    position: absolute;
-    top: 0;
+    position: relative;
     top: 0;
     left: 250px;
     height: 100vh;
     width: calc(100% - 250px);
     background-color: var(--body-color);
     transition: var(--tran-05);
+    color: var(--primary-color-light);
 }
 .home .text{
     font-size: 30px;
@@ -379,3 +379,14 @@ button, #add-todo-item{
     width:60%;
   }
 
+  .cards{
+    color: var(--text-color);
+    background-color: var(--body-color);
+  }
+
+  .cardcol{
+    border-radius: 10px;
+    color: var(--text-color);
+    background-color: var(--primary-color-light);
+    margin-bottom: 50px;
+  }
