@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <!----===== Boxicons CSS ===== -->
+     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+     <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body style="background-color: #E4E9F7;">
+    
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="assist/logo.svg" alt="">
+                </span>
+                <div class="text logo-text">
+                    <span class="name ">ARP.</span>
+                    <span class="profession">family platform</span>
+                </div>
+            </div>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links" style="margin-left: -50px;">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class=' bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="lounge.html">
+                            <i class='bx bx-group icon' ></i>
+                            <span class="text nav-text">Lounge</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-chat icon'></i>
+                            <span class="text nav-text">messages</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-calendar-alt icon' ></i>
+                            <span class="text nav-text">Calender</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-box icon' ></i>
+                            <span class="text nav-text">Storage</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>          
+            </div>
+        </div>
+    </nav>
+     
+    <section class="home">
+        <!--Avatar & notification-->
+        <nav class="navbar bg-light ">
+            <div class="container-fluid">
+              <a style="margin-left: 96%; " class="navbar-brand" href="#" > <!--todo: profile dropdown options-->
+                <li class="bi bi-bell pe-1" style="display: inline-block;"></li> <!--notifications-->
+                <img  src="assist/logo.svg" alt="" width="30" height="30" > <!--Avatar-->
+              </a>
+            </div>
+          </nav>
+
+        <div> <!--welcome-->
+        <h1 class="text-black text">Welcome Abo Rakan</h1>
+        <h6 class="ms-5 ps-4 text-secondary">check what your family do...</h6>
+        </div>
+        <div class="container"> <!--dashboard cards-->
+            <div class="row align-items-start "> 
+            <!--first card-->
+              <div class="col bg-white m-5 pt-3 pb-1 ps-2 rounded-3 ps-4">
+                <h5 class="pt-3" style='vertical-align:middle; display:inline;'>Activites</h5> 
+                <img src="assist/three-dots-vertical.svg" alt="" class="float-end" > <!--doted option-->
+              
+                <p class="sm mt-4">today</p> <!--today activite list-->
+                <ul class="list-inline">
+                  <li class="circle"></li>
+                  <li class="list-inline-item ">Aaaaaa</li>
+                  <li class="circle"></li>
+                  <li class="list-inline-item">Bbbbbbbb</li>
+                  <li class="circle"></li>
+                  <li class="list-inline-item">Ccccccccc</li>
+                </ul>
+              <p class="sm mt-4">this week</p> <!--this week activite list-->
+                <ul class="list-inline">
+                  <li class="circle"></li>
+                  <li class="list-inline-item ">Aaaaaaaaa</li>
+                  <li class="circle"></li>
+                  <li class="list-inline-item">Bbbbbbbbbbbb</li>
+                  <li class="circle"></li>
+                  <li class="list-inline-item">Cccccccccccccccc</li>
+                </ul>
+              </div>
+            <!--second card-->
+                <div class="col bg-white m-5 pt-3 pb-1 ps-2 rounded-3"> 
+                  <h5 class="ps-3" style='vertical-align:middle; display:inline;'>Shared files</h5>
+                  <img src="assist/three-dots-vertical.svg" alt="" class="float-end" > <!--doted option-->
+                  <ul>
+                    <p class="sm mt-4">today</p> <!--today shared files list-->
+                      <li>Mead shared "grades.png" <i class="float-end"><img src="assist\file-image.svg" alt="file-image"></i></li>
+                    <p class="sm mt-4">this week</p> <!--this week shared files list-->
+                      <li>Mayadah shared “finance.pdf”<i class="float-end"><img src="assist/file-earmark.svg" alt="file-image"></i></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-start ">
+                <!-- top users card-->
+                <div class="col bg-white m-5 pt-3 pb-1 ps-2 rounded-3 ps-4">
+                    <h5 class="pt-3" style='vertical-align:middle; display:inline;'>Top Users</h5> 
+                    <img src="assist/three-dots-vertical.svg" alt="" class="float-end" > <!--doted option-->
+                    <!--table-->
+                    <table class="table mt-4">
+                        <thead>
+                            <tr>
+                              <th scope="col"class="fw-bold">No</th>
+                              <th scope="col"class="fw-normal">User</th>
+                              <th scope="col"class="fw-normal">interacts</th>
+                              <th scope="col"class="fw-normal">files shered</th>
+                              <th scope="col"class="fw-normal">Tasks</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Abo Rakan</td>
+                              <td>458</td>
+                              <td>154</td>
+                              <td>18 Tasks Done</td>
+                            </tr>
+                            <tbody>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td>Naderah</td>
+                                  <td>365</td>
+                                  <td>148</td>
+                                  <td>21 Tasks Done</td>
+                                </tr>
+                                <tbody>
+                                    <tr>
+                                      <th scope="row">3</th>
+                                      <td>Rakan</td>
+                                      <td>227</td>
+                                      <td>126</td>
+                                      <td>10 Tasks Done</td>
+                                    </tr>
+                    </table>
+                </div>
+
+                <!-- tasks card-->
+                <div class="col bg-white m-5 pt-3 pb-1 ps-2 rounded-3 ps-4">
+                    <h5 class="pt-3" style='vertical-align:middle; display:inline;'>Tasks</h5> 
+                    <img src="assist/three-dots-vertical.svg" alt="" class="float-end" > <!--doted option-->
+                    <p class=" text-secondary">2 of 4 remaining</p>
+                   <!-- <div id="container">
+                        <section id="main">
+                            <section>
+                                <ul id="listContainer" class="ull" class="todo-list">
+                                </ul>
+                                <h6></h6>
+                            </section>
+                
+                            <form id="formToDo" class="form-add-todo">
+                
+                              <input type="text" id="new-todo-item" class="new-todo-item" name="todo" placeholder="Add Task . . ." />
+                                <input type="submit" id="add-todo-item" class="add-todo-item" value="+" />
+                            </form>
+                
+                            
+                        </section>
+                
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="todolist.js"></script>
+    <script>
+      const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+
+
+    toggle.addEventListener("click" , () =>{
+    sidebar.classList.toggle("close");
+})
+
+    searchBtn.addEventListener("click" , () =>{
+    sidebar.classList.remove("close");
+})
+
+modeSwitch.addEventListener("click" , () =>{
+    body.classList.toggle("dark");
+    
+    if(body.classList.contains("dark")){
+        modeText.innerText = "Light mode";
+    }else{
+        modeText.innerText = "Dark mode";
+        
+    }
+});
+/*
+//user enters items to list, items are added to list
+$("#formToDo").on('submit',function(e){
+  e.preventDefault();
+  var userInput= $("#new-todo-item").val()
+  $("#listContainer").append("<li>"+userInput+ '<input type="button" class="edit" value="Edit">'+ '<input type="button" class=" delete" value="Delete">'+"</li>" )
+  $('#new-todo-item').val('');
+  updateListCount();
+})
+//when changes are made (items added or removed) the amount of tasks is reflected with each change
+function updateListCount(){
+  var count= $("li").length;
+  $("h3").text("You have "+count+ " task(s) left!");
+}
+//make delete button remove list item
+
+$('#listContainer').on('click', '.delete',function(){
+    $(this).parent().remove();
+    updateListCount();
+});
+
+//mark list items as markComplete
+$(document).ready(function(){
+  $("ul").on("click" ,"li", function (){
+   $(this).toggleClass("markComplete");
+
+})
+  //hover that will show and hide appended buttons
+$("ul").on("mouseleave" ,"li", function (){
+    $(".delete, .edit").hide();
+    $(".delete, .edit").addClass("new");
+});
+
+
+$("ul").on("mouseenter" ,"li", function (){
+    $(".delete, .edit").show();
+    $(".delete, .edit").addClass("new");
+});
+
+});
+
+//EDIT TASK
+//user clicks on edit button
+$(document).on("click", '.edit', function () {
+    // make the span editable and focus it
+      $(this).parent().prop("contenteditable", true).focus();
+    return false;
+  });*/
+    </script>
+
+</body>
+</html>
