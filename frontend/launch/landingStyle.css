@@ -3,7 +3,8 @@ body {
     font-size: 14px;
     background: linear-gradient(rgb(35, 160, 238), rgb(41, 95, 233), rgb(27, 20, 235));
     background-repeat:no-repeat;
-    background-size: 100% 250%;
+    background-size: 110% 230%;
+    scale: 100%;
 
 }
 a{
