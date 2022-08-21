@@ -3,7 +3,7 @@ body {
     font-size: 14px;
     background: linear-gradient(rgb(35, 160, 238), rgb(41, 95, 233), rgb(27, 20, 235));
     background-repeat:no-repeat;
-    background-size: 110% 230%;
+    background-size: 110% 200%;
     scale: 100%;
 
 }
@@ -19,6 +19,8 @@ ul{
 .img{
     float: right;
     position:initial;
+    min-width: 400px;
+    max-width: 900px;
 }
 
 .btn1{
@@ -40,7 +42,7 @@ ul{
 }
 
 .p{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 10%;
     margin-bottom: 5%;
     color: #ffffff;
@@ -49,3 +51,4 @@ ul{
 input{
     size: 1000px;
 }
+
