@@ -10,7 +10,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
      <!----===== Boxicons CSS ===== -->
      <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-     <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body style="background-color: #E4E9F7;">
@@ -99,7 +98,7 @@
         </div>
     </nav>
      
-    <section class="home">
+    <section class="home ">
         <!--Avatar & notification-->
         <nav class="navbar bg-light ">
             <div class="container-fluid">
@@ -111,13 +110,13 @@
           </nav>
 
         <div> <!--welcome-->
-        <h1 class="text-black text">Welcome Abo Rakan</h1>
+        <h1 class="text-black text ">Welcome Abo Rakan</h1>
         <h6 class="ms-5 ps-4 text-secondary">check what your family do...</h6>
         </div>
         <div class="container"> <!--dashboard cards-->
             <div class="row align-items-start "> 
             <!--first card-->
-              <div class="col bg-white m-5 pt-3 pb-1 ps-2 rounded-3 ps-4">
+              <div class="col bg-white m-5 pt-3 pb-1 ps-2 rounded-3 ps-4 ">
                 <h5 class="pt-3" style='vertical-align:middle; display:inline;'>Activites</h5> 
                 <img src="assist/three-dots-vertical.svg" alt="" class="float-end" > <!--doted option-->
               
@@ -224,9 +223,7 @@
             </div>
         </div>
     </section>
-    
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script type="text/javascript" src="todolist.js"></script>
+
     <script>
       const body = document.querySelector('body'),
       sidebar = body.querySelector('nav'),
@@ -254,54 +251,6 @@ modeSwitch.addEventListener("click" , () =>{
         
     }
 });
-/*
-//user enters items to list, items are added to list
-$("#formToDo").on('submit',function(e){
-  e.preventDefault();
-  var userInput= $("#new-todo-item").val()
-  $("#listContainer").append("<li>"+userInput+ '<input type="button" class="edit" value="Edit">'+ '<input type="button" class=" delete" value="Delete">'+"</li>" )
-  $('#new-todo-item').val('');
-  updateListCount();
-})
-//when changes are made (items added or removed) the amount of tasks is reflected with each change
-function updateListCount(){
-  var count= $("li").length;
-  $("h3").text("You have "+count+ " task(s) left!");
-}
-//make delete button remove list item
-
-$('#listContainer').on('click', '.delete',function(){
-    $(this).parent().remove();
-    updateListCount();
-});
-
-//mark list items as markComplete
-$(document).ready(function(){
-  $("ul").on("click" ,"li", function (){
-   $(this).toggleClass("markComplete");
-
-})
-  //hover that will show and hide appended buttons
-$("ul").on("mouseleave" ,"li", function (){
-    $(".delete, .edit").hide();
-    $(".delete, .edit").addClass("new");
-});
-
-
-$("ul").on("mouseenter" ,"li", function (){
-    $(".delete, .edit").show();
-    $(".delete, .edit").addClass("new");
-});
-
-});
-
-//EDIT TASK
-//user clicks on edit button
-$(document).on("click", '.edit', function () {
-    // make the span editable and focus it
-      $(this).parent().prop("contenteditable", true).focus();
-    return false;
-  });*/
     </script>
 
 </body>
