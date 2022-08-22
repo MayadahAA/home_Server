@@ -1,5 +1,4 @@
-.bg {
-}
+
 /* Google Font Import - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
@@ -287,7 +286,7 @@ body.dark .switch::before{
 .home{
     position: relative;
     top: 0;
-    left: 250px;
+    left: 50px;
     height: 100vh;
     width: calc(100% - 250px);
     background-color: var(--body-color);
@@ -394,9 +393,10 @@ button, #add-todo-item{
 #circle{
     background: var(--sidebar-color);
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin-left: 100%;
+    flex-wrap: nowrap;
 }
 
 #usersA{
