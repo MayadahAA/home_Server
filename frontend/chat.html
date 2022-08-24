@@ -12,7 +12,7 @@
      <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
 </head>
-<body id="bg">
+<body style="background-color: #E4E9F7;">
     
     <nav class="sidebar close">
         <header>
@@ -38,7 +38,7 @@
 
                 <ul class="menu-links" style="margin-left: -50px;">
                     <li class="nav-link">
-                        <a href="home.html">
+                        <a href="#">
                             <i class=' bx bx-home-alt icon' ></i>
                             <span class="text nav-text">home</span>
                         </a>
@@ -52,7 +52,7 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="chat.html">
+                        <a href="#">
                             <i class='bx bx-chat icon'></i>
                             <span class="text nav-text">messages</span>
                         </a>
@@ -97,8 +97,10 @@
             </div>
         </div>
     </nav>
-    <!--Avatar & notification-->
-    <div class="cards"> 
+     
+    <section class="home ">
+        <!--Avatar & notification-->
+        <div class="cards"> 
         <nav class="navbar">
             <div class="container-fluid">
               <a style="margin-left: 96%; " class="navbar-brand" href="#" > <!--todo: profile dropdown options-->
@@ -108,53 +110,35 @@
             </div>
           </nav>
         </div>
-        <div id="post" class="col-lg-12 ">
 
-        </div>
-      <div class="cards">
-        <div > 
-        <div class="container-fluid ">
-            <div class=" col-lg-12 ">
-                <div id="circle" class="text-center active"> N </div>
-                <div id="circle" class="text-center"> H </div>
-                <div id="circle" class="text-center"> A </div>
-                <div id="circle" class="text-center active"> R </div>
-                <div id="circle" class="text-center"> W </div>
-                <div id="circle" class="text-center"> M </div>
-                <div id="circle" class="text-center"> M </div>
-            </div>
-        </div>
-        </div>
-    </div>
+        <script>
+            const body = document.querySelector('body'),
+            sidebar = body.querySelector('nav'),
+            toggle = body.querySelector(".toggle"),
+            searchBtn = body.querySelector(".search-box"),
+            modeSwitch = body.querySelector(".toggle-switch"),
+            modeText = body.querySelector(".mode-text");
       
-      <script>
-        const body = document.querySelector('body'),
-        sidebar = body.querySelector('nav'),
-        toggle = body.querySelector(".toggle"),
-        searchBtn = body.querySelector(".search-box"),
-        modeSwitch = body.querySelector(".toggle-switch"),
-        modeText = body.querySelector(".mode-text");
-  
-  
-      toggle.addEventListener("click" , () =>{
-      sidebar.classList.toggle("close");
-  })
-  
-      searchBtn.addEventListener("click" , () =>{
-      sidebar.classList.remove("close");
-  })
-  
-  modeSwitch.addEventListener("click" , () =>{
-      body.classList.toggle("dark");
       
-      if(body.classList.contains("dark")){
-          modeText.innerText = "Light mode";
-      }else{
-          modeText.innerText = "Dark mode";
+          toggle.addEventListener("click" , () =>{
+          sidebar.classList.toggle("close");
+      })
+      
+          searchBtn.addEventListener("click" , () =>{
+          sidebar.classList.remove("close");
+      })
+      
+      modeSwitch.addEventListener("click" , () =>{
+          body.classList.toggle("dark");
           
-      }
-  });
-      </script>
-  
-</body>
-</html>
+          if(body.classList.contains("dark")){
+              modeText.innerText = "Light mode";
+          }else{
+              modeText.innerText = "Dark mode";
+              
+          }
+      });
+          </script>
+      
+      </body>
+      </html>

@@ -418,3 +418,16 @@ button, #add-todo-item{
     margin-top: 2%;
 
 }
+
+.scroll{
+    margin: 50px; 
+    width: 1400px; 
+    height: 550px; 
+    align-items: center; 
+    overflow-y: scroll; 
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+
+}
