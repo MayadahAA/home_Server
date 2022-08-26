@@ -18,6 +18,8 @@
     --primary-color-light: #F6F5FF;
     --toggle-color: #DDD;
     --text-color: #707070;
+    --like-color: #f44336;
+    --like-color-light: #f443361e;
 
     /* ====== Transition ====== */
     --tran-03: all 0.2s ease;
@@ -44,6 +46,10 @@ body.dark{
     --primary-color-light: #3a3b3c;
     --toggle-color: #fff;
     --text-color: #ccc;
+    --like-color: #f07064;
+    --like-color-light: #f443361e;
+
+
 }
 
 /* ===== Sidebar ===== */
@@ -402,6 +408,17 @@ button, #add-todo-item{
     margin-left: 96%;
     margin-top: 2%;
 }
+#circlep{
+    background: var(--sidebar-color);
+    position: relative;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    float: left;
+    box-shadow: 0px 0px 0px 2px var(--text-color);
+    text-align: center;
+}
 
 .active{
     box-shadow: 0px 0px 0px 5px var(--primary-color);
@@ -409,15 +426,23 @@ button, #add-todo-item{
 }
 
 #post{
-    width: 1000px;
+    width: 700px;
     height: 300px;
     background-color: var(--primary-color);
     position: fixed;
-    margin-left: 30%;
+    margin-left: 50%;
     display: inline;
     margin-top: 2%;
-
 }
+#postP{
+    background-color: var(--sidebar-color);
+    color: var(--text-color);
+}
+#name{
+   margin-left: 60px;
+   margin-top: 12px;
+}
+
 
 .scroll{
     margin: 50px; 
@@ -430,4 +455,33 @@ button, #add-todo-item{
 .scroll::-webkit-scrollbar{
     display: none;
 
+}
+.counterStat{
+    color: var(--toggle-color);
+}
+.button {
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-flex;
+    font-size: 15px;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+}
+
+.button1 {
+    background-color: var(--like-color);
+    color: var(--toggle-color);
+    border-radius: 50px;
+    margin-bottom: 1px;
+    position: relative;
+    box-shadow: 0 8px 16px 0 var(--like-color-light), 0 6px 20px 0 var(--like-color-light);
+    width: fit-content;
+    height: fit-content;
+}
+
+.button1:hover{
+    background-color: var(--like-color);
 }

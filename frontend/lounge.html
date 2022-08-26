@@ -10,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
      <!----===== Boxicons CSS ===== -->
      <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+rel="stylesheet" />
     <title>Document</title>
 </head>
 <body id="bg">
@@ -108,9 +109,21 @@
             </div>
           </nav>
         </div>
-        <div id="post" class="col-lg-12 ">
 
+        <div id="post" class="col-lg-12 card">
+            <div class="card " id="postP"> 
+                <div id="circlep" class="float-start position-absolute m-2"> H </div>
+                <p id="name" class=" fs-4 "> Hind</p>
+                <h4 class="ms-5" id="h4">لا تنسون تجوني اليوم</h4>
+
+                <div class="CountLike m-3" id="Like Count">
+                    <button class="button button1 ">
+                    <i class="bi bi-heart-fill text-center" ></i> <span class="counterStat ms-1">...</span>
+                    </button>
+                    </div>
+            </div>
         </div>
+
       <div class="cards">
         <div > 
         <div class="container-fluid ">
@@ -126,7 +139,8 @@
         </div>
         </div>
     </div>
-      
+    <script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+
       <script>
         const body = document.querySelector('body'),
         sidebar = body.querySelector('nav'),
@@ -154,6 +168,37 @@
           
       }
   });
+
+  var config = {
+            apiKey: "AIzaSyCJnspKnj0raRP4SBi-kCuos62Zo_AruGk",
+            authDomain: "mlproject-ff22e.firebaseapp.com",
+            databaseURL: "https://mlproject-ff22e.firebaseio.com/",
+            storageBucket: "mlproject-ff22e.appspot.com	",
+            messagingSenderId: "1065316775501"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+    <script type="text/javascript">
+        var dCounters = document.querySelectorAll('.CountLike');
+        [].forEach.call(dCounters, function(dCounter) {
+            var el = dCounter.querySelector('button');
+            var cId = dCounter.id;
+            var dDatabase = firebase.database().ref('Like Number Counter').child(cId);
+
+            // get firebase data
+            dDatabase.on('value', function(snap) {
+                var data = snap.val() || 0;
+                dCounter.querySelector('span').innerHTML = data;
+            });
+
+            // set firebase data
+            el.addEventListener('click', function() {
+                dDatabase.transaction(function(dCount) {
+                    return (dCount || 0) + 1;
+                });
+            });
+        });
       </script>
   
 </body>
