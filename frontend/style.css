@@ -333,7 +333,6 @@ body.dark .home .text{
     display: inline; /* the default for span */
   }
 
-
 .markComplete{
  color: grey;
  text-decoration: line-through;
@@ -369,7 +368,6 @@ button, #add-todo-item{
  margin-right: 1%;
  margin-left: 2%;
 }
-
 
 #add-todo-item:hover, button:hover{
  background-color: #1BBC9B;
@@ -443,7 +441,6 @@ button, #add-todo-item{
    margin-top: 12px;
 }
 
-
 .scroll{
     margin: 50px; 
     width: 1400px; 
@@ -485,3 +482,13 @@ button, #add-todo-item{
 .button1:hover{
     background-color: var(--like-color);
 }
+
+svg{
+    width: 16px;
+    height: 16px;
+    float: right;
+  }
+  
+  svg.changeColor path{
+    fill:var(--text-color)
+  }
